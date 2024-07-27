@@ -5,7 +5,7 @@ import json
 import xml.etree.ElementTree as ET
 import datetime
 
-usage_message = 'RUNTASTIC-GPX-CONVERTER: bad command line'
+usage_message = 'Usage: python runtastic-gpx-converter.py <path_to_runtastic_export_zip>'
 started_message = 'conversion started, please wait ...'
 success_message = 'conversion completed'
 
